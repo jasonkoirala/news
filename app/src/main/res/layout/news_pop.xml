@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/custom_bg"
+    android:layout_marginTop="0dp"
+    android:layout_marginLeft="2dp"
+    android:layout_marginRight="2dp"
+    android:clickable="true"
+    android:orientation="vertical"
+    android:theme="@style/SelectableBackground">
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/card_view"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    card_view:cardBackgroundColor="#FFFFFF"
+    card_view:cardCornerRadius="4dp"
+    card_view:cardElevation="6dp"
+    card_view:cardUseCompatPadding="true">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+
+        <LinearLayout
+            android:id="@+id/newsTop"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorPrimary"
+            android:orientation="vertical"
+            android:weightSum="2">
+
+            <com.example.jason.newsportal.CustomImage.CustomImageView
+                android:id="@+id/newsImage"
+                android:scaleType="centerCrop"
+                android:layout_width="wrap_content"
+                android:layout_height="200dp" />
+
+            <TextView
+                android:id="@+id/newsHeading"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="3dp"
+                android:paddingTop="10sp"
+                android:text="@string/news_heading"
+                android:textColor="#FFFFFF"
+                android:textSize="20dp"
+
+                />
+
+            <TextView
+                android:id="@+id/newsSource"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="3dp"
+                android:text="@string/news_source"
+                android:textColor="#FFFFFF" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/newDesc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/newsTop"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/newsDescription"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:maxLines="4"
+                android:paddingBottom="5dp"
+                android:paddingLeft="3dp"
+                android:paddingTop="5dp"
+                android:text="This is where news is printed."
+                android:textColor="#000000"
+                android:textSize="14sp" />
+        </LinearLayout>
+
+
+    </RelativeLayout>
+
+
+</android.support.v7.widget.CardView>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:layout_marginLeft="9dp"
+        android:layout_marginRight="9dp"
+        android:layout_centerHorizontal="true"
+        android:background="@color/colorAccent" />
+
+
+</LinearLayout>

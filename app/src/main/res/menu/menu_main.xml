@@ -1,0 +1,12 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.jason.newsportal.Activity.MainActivity">
+
+    <item
+        android:id="@+id/word_news"
+        android:orderInCategory="100"
+        android:title="@string/action_world_news"
+        app:showAsAction="never" />
+
+</menu>

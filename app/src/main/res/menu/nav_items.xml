@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <group android:checkableBehavior="single">
+        <!--
+                Add menu items here
+                Menu items with icon and Title
+        -->
+        <group>
+            <item
+                android:id="@+id/cnn"
+                android:icon="@drawable/ic_cnn"
+                android:title="CNN" />
+        </group>
+        <group>
+            <item
+                android:id="@+id/bloomberg"
+                android:icon="@drawable/ic_bloomberg"
+                android:title="Bloomberg" />
+            <item
+                android:id="@+id/bbc"
+                android:icon="@drawable/ic_bbc"
+                android:title="BBC" />
+            <item
+                android:id="@+id/bbc_sports"
+                android:icon="@drawable/ic_bbcsport"
+                android:title="BBC Sports" />
+            <item
+                android:id="@+id/business_insider"
+                android:icon="@drawable/ic_bi"
+                android:title="Business Insider" />
+            <item
+                android:id="@+id/tech_crunch"
+                android:icon="@drawable/ic_techcrunch"
+                android:title="Tech Crunch" />
+            <item
+                android:id="@+id/mtv_hot"
+                android:icon="@drawable/ic_mtv"
+                android:title="MTV Hot" />
+        </group>
+    </group>
+</menu>

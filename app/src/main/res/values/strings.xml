@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">News Portal</string>
+    <string name="action_world_news">World Wide</string>
+    <string name="action_my_news">My News</string>
+    <string name="news_heading">News Heading</string>
+    <string name="news_source">News Source </string>
+    <string name="action_refresh">Refresh</string>
+    <string name="title_activity_tabbed">TabbedActivity</string>
+    <string name="openDrawer">open_drawer</string>
+    <string name="closeDrawer">close_drawer</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_new_view_website">NewViewWebsite</string>
+    <string name="close">close</string>
+    <string name="title_activity_recycler_sports_acitivity">RecyclerSportsAcitivity</string>
+    <string name="title_activity_news_feed">NewsFeed</string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="title_activity_spinner">SpinnerActivity</string>
+</resources>
